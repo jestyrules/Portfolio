@@ -247,73 +247,62 @@
             <div class="section-title text-left">
                 <h3>Projects</h3>
                 <p>A Collection of My Diverse and Innovative Projects Highlighting Creativity, Skill, and Achievements in Various Endeavors.</p>
-            </div><!-- end title -->
+            </div>
     
             <div class="gallery-list row">
                 <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
-                    <div style="border-radius: 10px;" class="gallery-single fix">
+                    <div class="gallery-single fix">
                         <img src="uploads/2.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <div style="text-align: center; padding-top: 100px; color: aliceblue;">HOSPITAL MANAGEMENT</div>
+                            <div class="overlay-content">HOSPITAL MANAGEMENT</div>
                         </div>
-                        <h3 style="text-align: center;">HolyCross</h3>
+                        <h3 class="text-center">HolyCross</h3>
                     </div>
                 </div>
-
-                
     
                 <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
-                    <div style="border-radius: 10px;" class="gallery-single fix">
-
-
+                    <div class="gallery-single fix">
                         <img src="uploads/5.jpg" class="img-fluid" alt="Image">
-                        <a onclick="openPopup()" style="border: none; background: none;">
-
-                        <div class="img-overlay">
-                            <div style="text-align: center; padding-top: 100px; color: aliceblue;">MOVIE PURCHASING WEBSITE</div>
-                        </div>
-                    </a>   
-                        <h3 style="text-align: center;">MovieGram</h3>
+                        <a onclick="openPopup()" class="popup-link">
+                            <div class="img-overlay">
+                                <div class="overlay-content">MOVIE PURCHASING WEBSITE</div>
+                            </div>
+                        </a>
+                        <h3 class="text-center">MovieGram</h3>
                     </div>
                 </div>
-
-
-                
-
-               <div id="myPopup" class="popup" style="width: 80%; height: 80%; border-radius: 10px;">
-    <span class="close-btn" onclick="closePopup()">X</span>
-    <a href="https://github.com/your-github-repo" target="_blank">
-        <img src="github-icon.png" alt="GitHub">
-    </a>
-    <div style="width: 100px; height: 300px;">
-        <img style="border-radius: 10px;" src="uploads/5.jpg">
-    </div>
-    <div style="margin-left: 650px; margin-top: -300px; padding-left: 20px; padding-right: 20px;">
-        <h1>MovieGram Online Movie Purchasing</h1>
-        <h3>Technology Used—Django, Python, Django Modules, SQLite, Html, CSS, and JavaScript</h3>
-        <p>Description—Developed a website specializing in the sale of movies, providing customers with a platform to browse, purchase, and watch their favorite films online</p>
-        <button onclick="closePopup()">Close</button>
-    </div>
-</div>
-
-                
-
-
-
-
+    
                 <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
-                    <div style="border-radius: 10px;" class="gallery-single fix">
+                    <div class="gallery-single fix">
                         <img src="uploads/4.jpg" class="img-fluid" alt="Image">
                         <div class="img-overlay">
-                            <div style="text-align: center; padding-top: 100px; color: aliceblue;">ONLINE SHOPPING WEBSITE</div>
-                        
+                            <div class="overlay-content">ONLINE SHOPPING WEBSITE</div>
                         </div>
-                        <h3 style="text-align: center;">SupMart</h3>
+                        <h3 class="text-center">SupMart</h3>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    <div id="myPopup" class="popup">
+        <span class="close-btn" onclick="closePopup()">X</span>
+        <div class="popup-content">
+            <a href="https://github.com/your-github-repo" target="_blank">
+                <img src="github-icon.png" alt="GitHub">
+            </a>
+            <div class="popup-image">
+                <img src="uploads/5.jpg" alt="Project Image">
+            </div>
+            <div class="popup-details">
+                <h1>MovieGram Online Movie Purchasing</h1>
+                <h3>Technology Used—Django, Python, Django Modules, SQLite, Html, CSS, and JavaScript</h3>
+                <p>Description—Developed a website specializing in the sale of movies, providing customers with a platform to browse, purchase, and watch their favorite films online</p>
+                <button onclick="closePopup()">Close</button>
+            </div>
+        </div>
+    </div>
+    
     
     
 	
