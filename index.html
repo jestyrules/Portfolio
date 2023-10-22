@@ -251,28 +251,27 @@
     
             <div class="gallery-list row">
                 <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
-                    <div class="gallery-single fix">
+                    <div class="gallery-single fix card-with-border-radius">
                         <img src="uploads/2.jpg" class="img-fluid" alt="Image">
-                        <h3 class="text-center">HolyCross</h3>
                     </div>
                 </div>
     
                 <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
-                    <div class="gallery-single fix">
+                    <div class="gallery-single fix card-with-border-radius">
                         <img src="uploads/5.jpg" class="img-fluid" alt="Image">
-                        <h3 class="text-center">MovieGram</h3>
                     </div>
                 </div>
     
                 <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
-                    <div class="gallery-single fix">
+                    <div class="gallery-single fix card-with-border-radius">
                         <img src="uploads/4.jpg" class="img-fluid" alt="Image">
-                        <h3 class="text-center">SupMart</h3>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
+    
     <!-- Certificat -->
     <div id="testimonials" class="section wb">
         <div class="container">
@@ -296,7 +295,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <a href="https://drive.google.com/file/d/1WNW4KAl9mgrSZ1N_L7sDOIwE6P9DUF8L/view?usp=share_link">
                         <div class="card text-center">
-                            <img src="uploads/9.png" alt="Certificate 2" class="img-small-center">
+                            <img src="uploads/lum.png" alt="Certificate 2" class="img-small-center">
                             <h2>Python Django FullStack Developer</h2>
                             <p>Luminar Technolab Kochi (2023)</p>
                         </div>
@@ -314,7 +313,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <a href="https://www.hackerrank.com/certificates/430d3f87267b">
                         <div class="card text-center">
-                            <img src="uploads/hh.png" alt="Certificate 4" class="img-small-center">
+                            <img src="uploads/py.png" alt="Certificate 4" class="img-small-center">
                             <h2>Python Certificate</h2>
                             <p>HackerRank (2023)</p>
                         </div>
@@ -323,8 +322,17 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <a href="https://www.hackerrank.com/certificates/3a679752ead3">
                         <div class="card text-center">
-                            <img src="uploads/hh.png" alt="Certificate 5" class="img-small-center">
+                            <img src="uploads/ps.png" alt="Certificate 5" class="img-small-center">
                             <h2>Problem Solving</h2>
+                            <p>HackerRank (2023)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <a href="https://www.hackerrank.com/certificates/dbd34f2e3fb1">
+                        <div class="card text-center">
+                            <img src="uploads/sql.png" alt="Certificate 5" class="img-small-center">
+                            <h2>SQL Certificate</h2>
                             <p>HackerRank (2023)</p>
                         </div>
                     </a>
@@ -349,7 +357,7 @@
                         <form id="contactForm" method="POST">
 
 							<div class="row">
-								<div  class="col-md-6">
+								<div  class="col-md-12">
 									<div  class="form-group">
 										<input style="border-radius: 10px;" class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
 										<p class="help-block text-danger"></p>
@@ -359,7 +367,7 @@
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<textarea style="border-radius: 10px;" class="form-control" id="subject" type="text" placeholder="Subject" required="required" data-validation-required-message="Please enter your subject."></textarea>
+										<textarea style="border-radius: 10px;" class="form-control" id="subject" type="text" placeholder="Your Message" required="required" data-validation-required-message="Please enter your Message."></textarea>
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
@@ -388,6 +396,11 @@
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <style>
+        .card-with-border-radius {
+    border-radius: 10px;
+    overflow: hidden; /* Optional, hides any content that may overflow the rounded corners */
+}
+
         .img-small-center {
     width: 75px; /* Adjust the maximum width as needed */
     height: 75px; /* Adjust the maximum height as needed */
