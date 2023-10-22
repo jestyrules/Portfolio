@@ -419,7 +419,7 @@ order
         <div class="section-title text-left">
             <h3>Contact</h3>
             <p>Connect with Me for Collaborations, Questions, or Opportunities.</p>
-            <div class="contact_icons ikru">
+            <div class="contact_icons ">
                 <a href="https://github.com/jestyrules" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.hackerrank.com/profile/jestinjohnson1" target="_blank"><i class="fab fa-hackerrank"></i></a>
                 <a href="https://www.linkedin.com/in/jestyrule/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -473,10 +473,15 @@ order
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <style>
-        .ikru{
-            margin-left: 420px;
-            font-size: 40px;
-        }
+        .contact_icons {
+    display: flex;
+    justify-content: space-around; /* Add spacing between icons */
+}
+
+.contact_icons a {
+    font-size: 40px; /* Adjust the icon size as needed */
+    margin: 0 10px; /* Add space around each icon */
+}
         /*  */
             /* Base Styles */
 html {
