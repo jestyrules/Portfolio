@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     <!-- Mail -->
@@ -249,30 +252,98 @@
                 <p>A Collection of My Diverse and Innovative Projects Highlighting Creativity, Skill, and Achievements in Various Endeavors.</p>
             </div>
     
-            <div class="gallery-list row">
+            <!-- Project Container -->
+            <div class="row">
+                <!-- First Project -->
                 <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
-                    <div class="gallery-single fix card-with-border-radius">
-                        <img src="uploads/2.jpg" class="img-fluid" alt="Image">
+                    <div class="new-container" id="new-modal-opened">
+                        <div class="new-modal">
+                            <div class="new-details">
+                                <h1 class="new-title">HolyCross</h1>
+                                <p style="color: black;">Hospital Management Website</p>
+                            </div>
+                            <p style="color: rgb(92, 92, 92);" class="new-txt">
+                                Developed a Django-based web application for a hospital management system, with a primary focus on enabling patients to schedule appointments with doctors seamlessly.
+                            </p>
+                            <div class="new-social-icons">
+                                <a href="https://github.com/jestyrules/HolyCross-Hospital-Management.git" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/posts/jestyrule_hackerrank-skill-certificate-activity-7121483617159049216-XGjm" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                            <a href="#new-modal-closed" class="new-link-2"></a>
+                        </div>
                     </div>
+    
+                    <!-- First Project Gallery -->
+                    <a href="#new-modal-opened" class="new-link-1" id="new-modal-closed">
+                        <div class="gallery-single fix card-with-border-radius">
+                            <img src="uploads/2.jpg" class="img-fluid" alt="Image">
+                        </div>
+                    </a>
                 </div>
     
-                <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
-                    <div class="gallery-single fix card-with-border-radius">
-                        <img src="uploads/5.jpg" class="img-fluid" alt="Image">
+                <!-- Second Project -->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+                    <div class="new-container" id="new-modal-opened1">
+                        <div class="new-modal">
+                            <div class="new-details">
+                                <h1 class="new-title">MovieGram</h1>
+                                <p style="color: black;" >Movie Purchasing Website</p>
+                            </div>
+                            <p style="color: rgb(92, 92, 92);" class="new-txt">
+                                Developed a website specializing in the sale of movies, providing customers
+with a platform to browse, purchase, and watch their favorite films online
+                            </p>
+                            <div class="new-social-icons">
+                                <a href="https://github.com/jestyrules/MovieGram.git" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/posts/jestyrule_hackerrank-skill-certificate-activity-7121483617159049216-XGjm" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                            <a href="#new-modal-closed" class="new-link-2"></a>
+                        </div>
                     </div>
+    
+                    <!-- Second Project Gallery -->
+                    <a href="#new-modal-opened1" class="new-link-1" id="new-modal-closed">
+                        <div class="gallery-single fix card-with-border-radius">
+                            <img src="uploads/5.jpg" class="img-fluid" alt="Image">
+                        </div>
+                    </a>
                 </div>
     
-                <div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
-                    <div class="gallery-single fix card-with-border-radius">
-                        <img src="uploads/4.jpg" class="img-fluid" alt="Image">
+                <!-- Third Project -->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+                    <div class="new-container" id="new-modal-opened2">
+                        <div class="new-modal">
+                            <div class="new-details">
+                                <h1 class="new-title">SupMart</h1>
+                                <p style="color: black;">E-Commerce Website</p>
+                            </div>
+                            <p style="color: rgb(92, 92, 92);" class="new-txt">
+                                Developed a feature-rich e-commerce website specializing in the sale of
+fresh vegetables, Fruits providing customers with a convenient platform to purchase and
+order
+
+                            </p>
+                            <div class="new-social-icons">
+                                <a href="https://github.com/jestyrules/SupMart.git" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/posts/jestyrule_hackerrank-skill-certificate-activity-7121483617159049216-XGjm" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                            <a href="#new-modal-closed" class="new-link-2"></a>
+                        </div>
                     </div>
+    
+                    <!-- Third Project Gallery -->
+                    <a href="#new-modal-opened2" class="new-link-1" id="new-modal-closed">
+                        <div class="gallery-single fix card-with-border-radius">
+                            <img src="uploads/4.jpg" class="img-fluid" alt="Image">
+                        </div>
+                    </a>
                 </div>
-                
             </div>
         </div>
     </div>
     
-    <!-- Certificat -->
+    
+    <!-- Certificate -->
     <div id="testimonials" class="section wb">
         <div class="container">
             <div class="section-title text-left">
@@ -344,44 +415,50 @@
     <!-- end title -->
 
     <div id="contact" class="section db">
-        <div class="container">
-            <div class="section-title text-left">
-                <h3>Contact</h3>
-                <p>Connect with Me for Collaborations, Questions, or Opportunities.</p>
-            </div><!-- end title -->
+    <div class="container">
+        <div class="section-title text-left">
+            <h3>Contact</h3>
+            <p>Connect with Me for Collaborations, Questions, or Opportunities.</p>
+            <div class="contact_icons ikru">
+                <a href="https://github.com/jestyrules" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.hackerrank.com/profile/jestinjohnson1" target="_blank"><i class="fab fa-hackerrank"></i></a>
+                <a href="https://www.linkedin.com/in/jestyrule/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=918590569016" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="contact_form">
-                        <div id="message"></div>
-                        <form id="contactForm" method="POST">
-
-							<div class="row">
-								<div  class="col-md-12">
-									<div  class="form-group">
-										<input style="border-radius: 10px;" class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="form-group">
-										<input style="border-radius: 10px;" class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="form-group">
-										<textarea style="border-radius: 10px;" class="form-control" id="subject" type="text" placeholder="Your Message" required="required" data-validation-required-message="Please enter your Message."></textarea>
-										<p class="help-block text-danger"></p>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="col-lg-12 text-center">
-									<button style="border-radius: 10px;"  class="sim-btn btn-hover-new" onclick="sendMail()" data-text="Send Message" type="submit">Send Message</button>
-								</div>
-							</div>
-						</form>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact_form">
+                    <div id="message"></div>
+                    <form id="contactForm" method="POST">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input style="border-radius: 10px;" class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input style="border-radius: 10px;" class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <textarea style="border-radius: 10px;" class="form-control" id="subject" type="text" placeholder="Your Message" required="required" data-validation-required-message="Please enter your Message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <button style="border-radius: 10px;" class="sim-btn btn-hover-new" onclick="sendMail()" data-text="Send Message" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end section -->
     <footer>
         <div class="container">
             <div class="row">
@@ -396,6 +473,236 @@
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <style>
+        .ikru{
+            margin-left: 420px;
+            font-size: 40px;
+        }
+        /*  */
+            /* Base Styles */
+html {
+    font-size: 62.5%;
+}
+
+/* Modal Container */
+.new-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.new-container:target {
+    display: flex;
+}
+
+/* Modal Styles */
+.new-modal {
+    width: 60rem;
+    padding: 4rem 2rem;
+    border-radius: .8rem;
+    color: hsl(0, 0%, 100%);
+    background: #eaeaea;
+    box-shadow: .4rem .4rem 2.4rem .2rem hsl(0, 0%, 38%);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Modal Details Section */
+.new-details {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .4);
+}
+
+.new-title {
+    font-size: 3.2rem;
+}
+
+.new-description {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+/* Modal Text Section */
+.new-txt {
+    padding: 0 4rem;
+    margin-bottom: 4rem;
+    font-size: 1.6rem;
+    line-height: 2;
+    position: relative;
+}
+
+.new-txt::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 18rem;
+    height: 18rem;
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    border-radius: 100rem;
+    pointer-events: none;
+}
+
+/* Link 2 (Close Button) */
+.new-link-2 {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.4);
+    border-radius: 100rem;
+    color: inherit;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.new-link-2::before {
+    content: '×';
+    -webkit-transform: translateY(-.1rem);
+    transform: translateY(-.1rem);
+    color: black;
+}
+
+.new-link-2:hover,
+.new-link-2:focus {
+    border-color: hsla(0, 100%, 50%, 0.6);
+    -webkit-transform: translateY(-.2rem);
+    transform: translateY(-.2rem);
+}
+
+/* Social Icons Section */
+.new-social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.new-social-icons a {
+    margin: 0 10px;
+    color: #312a2a;
+    text-decoration: none;
+    font-size: 39px;
+}
+
+.new-social-icons a:hover {
+    color: #2188ff;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+    .new-social-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-social-icons a {
+        margin: 5px 0;
+    }
+}
+
+
+
+     .card-with-border-radius {
+    border-radius: 10px;
+    overflow: hidden; /* Optional, hides any content that may overflow the rounded corners */
+}
+
+        .img-small-center {
+    width: 75px; /* Adjust the maximum width as needed */
+    height: 75px; /* Adjust the maximum height as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+        /* Apply styles to the certificate cards */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Add a smooth transition effect for the animation */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Apply a scale transformation when hovering */
+}
+
+        /* Apply styles to the certificate cards */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100px; /* Set the maximum width for the certificate image */
+    max-height: 100px; /* Set the maximum height for the certificate image */
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+        
+        .zoom-image {
+    transition: transform 0.3s;
+}
+
+.zoom-image:hover {
+    transform: scale(1.1); /* Adjust the scale value for desired zoom level */
+}
+
+        .gallery-single {
+            transition: transform 0.5s;
+        }
+
+        .gallery-single:hover {
+            transform: scale(1.1);
+        }
+
+        .gallery-single img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section.lb {
+            padding: 50px 0;
+            background-color: #f7f7f7;
+        }
+
+        .section-title h3 {
+            font-size: 36px;
+            margin: 0 0 20px;
+            padding: 0;
+            font-weight: 700;
+        }
+        /*  */
         .card-with-border-radius {
     border-radius: 10px;
     overflow: hidden; /* Optional, hides any content that may overflow the rounded corners */
